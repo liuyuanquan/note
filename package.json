@@ -5,7 +5,8 @@
   "description": "前后端笔记",
   "scripts": {
     "start": "vuepress dev ./",
-    "build": "vuepress build ./"
+    "build": "vuepress build ./",
+    "depoy": "./depoy.sh"
   },
   "repository": {
     "type": "git",
