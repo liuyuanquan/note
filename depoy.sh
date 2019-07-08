@@ -14,7 +14,7 @@ cd .vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'feat(): deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
 
