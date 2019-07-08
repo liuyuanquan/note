@@ -37,8 +37,14 @@ module.exports = {
         selectText: '选择语言',
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdated: '上次更新',
-        // nav: require('./nav/zh'),
-        sidebar: {}
+        nav: require('./nav/zh'),
+        sidebar: {
+          '/front-end/vue-router/': [
+            ['', '介绍'],
+            '源码分析',
+            '钩子函数'
+          ]
+        }
       }
     }
   },
