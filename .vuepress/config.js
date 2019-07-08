@@ -2,7 +2,7 @@ const { fs, path } = require('@vuepress/shared-utils')
 
 module.exports = {
   // 基础路径
-  base: '/',
+  base: '/note/',
   // 端口
   port: 2000,
   head: [],
